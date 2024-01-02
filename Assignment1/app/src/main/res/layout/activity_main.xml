@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/WELCOME"
+        android:layout_width="391dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#EF4949"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ADD"
+        android:layout_width="189dp"
+        android:onClick="btnAddOnClick"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/WELCOME"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ADD TASK" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ADD"
+        android:onClick="btnChangeOnClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Change Task Status" />
+
+    <ListView
+        android:id="@+id/TASKSVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/change"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
