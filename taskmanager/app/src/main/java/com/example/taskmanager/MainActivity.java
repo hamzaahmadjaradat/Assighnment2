@@ -28,11 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String DATA = "DATA";
     private static final String FLAG = "FLAG";
-
     private static final String TrueSign = new String(Character.toChars(0x2705));
-
     private static final String FalseSign = new String(Character.toChars(0x274E));
-
     private Button delete;
     private Button add;
     private Button clear;
@@ -40,10 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Task> tasksMain = new ArrayList<>();
     public static List<Task> tasks = new ArrayList<>();
     public static List<Task> tasksDelete = new ArrayList<>();
-
     public static String getter = "";
-
-
     private TextView note;
     private static TextView welcome;
     static String task = "";
