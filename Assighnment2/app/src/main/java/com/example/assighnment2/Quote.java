@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Quote extends AppCompatActivity {
-    final static String X_API_KEY = "S/lH/EBxwmSkUGsyQ3CDrw==WsZoGJgyNa5SujBr";
+    final static String X_API_KEY = "fUR1UVPNVZQVfdZtVh9Zkb5FtRBb8JwhwlON68lz";
     private static final String key = "quote";
     private ListView listView;
     private TextView finalQuote;
@@ -58,7 +58,6 @@ public class Quote extends AppCompatActivity {
                                     long id) {
                 RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
                 String url = "https://api.api-ninjas.com/v1/quotes?category="+ parent.getItemAtPosition(position);
-
                 JsonArrayRequest jsonArrayRequest = new JsonArrayRequest
                         (Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
 

@@ -30,7 +30,7 @@ public class Joke extends AppCompatActivity {
     private SharedPreferences.Editor editor;
     final static String key = "joke";
 
-    final static String X_API_KEY = "S/lH/EBxwmSkUGsyQ3CDrw==WsZoGJgyNa5SujBr";
+    final static String X_API_KEY = "fUR1UVPNVZQVfdZtVh9Zkb5FtRBb8JwhwlON68lz";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
